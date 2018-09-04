@@ -32,7 +32,8 @@ exports.cssLoaders = function (options) {
   const px2remLoader = {
     loader: 'px2rem-loader',
     options: {
-      remUnit: 75  //  设计稿/10
+      remUnit: 75,  //  设计稿/10
+      remPrecision: 8
     }
   }
 
